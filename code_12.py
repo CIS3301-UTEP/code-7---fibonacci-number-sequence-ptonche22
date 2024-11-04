@@ -15,3 +15,6 @@ if __name__ == "__main__":
     #test code
     position = 8
     print(f"The Fibonacci number at position {position} is: {get_fibonacci_number(position)}")
+
+    number_of_elements = 7
+    print(f"The Fibonacci sequence for {number_of_elements} elements is: {get_fibonacci_number_sequence(number_of_elements)}")
